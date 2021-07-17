@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".splash">
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="261dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cal"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:textStyle="bold"
+        android:text="from"  />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Muhammad Hamza"
+        android:textColor="#7800FF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="550dp"
+        android:text="Welcome to HmCalc"
+        android:textColor="#3A02D1"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
